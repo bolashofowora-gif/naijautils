@@ -1,0 +1,3 @@
+from naijautils import validate_bvn, format_naira
+print(validate_bvn("12345678901"))  # True
+print(format_naira(250000))         # ₦250,000
